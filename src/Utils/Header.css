@@ -1,0 +1,190 @@
+/* middle-text w-[721px] text-center text-stone-800 text-[22px]  leading-10 */
+.cen-div{
+    width: 45%;
+    height: 25%;
+    /* border: 1px solid red; */
+    margin-left: 27%;
+}
+
+.product-text{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 10%;
+
+}
+
+.decription{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shop{
+  padding-top: 1.5rem; /* py-6 (6 * 0.25rem = 1.5rem) */
+  padding-right: 1.75rem;
+  padding-left: 0.75rem; 
+  margin-left: 15%;
+ 
+  color: #000; 
+  border-radius: 0.25rem; 
+  font-size: 1.125rem; 
+  text-align: center;
+ 
+}
+
+@media (min-width: 1024px) {
+  .normal-style {
+    background-color: transparent; 
+    color: #333; 
+    padding: 0;
+  }
+}
+
+.skill{
+  padding-top: 1.5rem; 
+  padding-right: 1.75rem;
+  padding-left: 0.75rem; 
+  margin-left: 15%;
+  
+  text-align: center;
+  color: #000; 
+  border-radius: 0.25rem; 
+  font-size: 1.125rem; 
+
+}
+.stories{
+  padding-top: 1.5rem; 
+  padding-right: 1.75rem;
+  padding-left: 0.75rem; 
+  margin-left: 15%;
+
+  text-align: center;
+  color: #000; 
+  border-radius: 0.25rem; 
+  font-size: 1.125rem; 
+
+}
+.about{
+  padding-top: 1.5rem; 
+  padding-right: 1.75rem;
+  padding-left: 0.75rem; 
+  margin-left: 15%;
+  
+  text-align: center;
+  color: #000; 
+  border-radius: 0.25rem; 
+  font-size: 1.125rem; 
+
+}.contact{
+    padding-top: 1.5rem; 
+    padding-right: 1.75rem;
+    padding-left: 0.75rem; 
+    margin-left: 15%;
+    margin-right: 0%;
+    
+  text-align: center;
+    color: #000; 
+    border-radius: 0.25rem; 
+    font-size: 1.125rem; 
+}
+
+.title-styling{
+  color: black;
+  font-size: 33px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  margin-right: 15%;
+  margin-left: 36%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+.logo-container {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Align items vertically in the center */
+}
+.logo-image {
+  
+  width: 30px; 
+  height: auto; 
+  margin-left: 3%;
+}
+
+.centre-nav{
+  height: 25%;
+  width: 35;
+  margin-left: 22%;
+}
+
+.icon {
+
+  height: 24px;
+  width: 24px;
+  margin-right: 2%;
+  margin-left: auto;
+  filter: grayscale(100%); 
+  transition: filter 0.3s, color 0.8s; 
+  cursor: pointer;
+  
+
+}
+
+.icon:hover {
+  filter: grayscale(0%);
+  text-decoration: underline; 
+  color: palevioletred;
+}
+.serch-icon{
+  margin-left: 20%;
+  margin-right: 2%;
+  height: 24px;
+  width: 24px;
+  filter: grayscale(100%); 
+  transition: filter 0.3s, color 0.3s; 
+  cursor: pointer;
+  
+}
+
+.filter-recommend{
+  border: solid 1px rgb(85, 149, 174);
+}
+.filter{
+  margin-right: 80%;
+  width: 99%;
+  font-weight: 700;
+}
+.filter:hover{
+  color: rgb(171, 93, 95);
+  cursor: pointer;
+  filter: saturate(rgb);
+  transition: color 0.3s ease-in-out;
+}
+
+
+.recommend{
+  height: 20%;
+  margin-left: 80%;
+  width: 1%;
+  font-weight: 700;
+   
+}
+.recommend:hover{
+  color: rgb(171, 93, 95);
+  cursor: pointer;
+  filter: saturate(rgb);
+  transition: color 0.3s ease-in-out;
+  
+}
+
+.copyright{
+  margin-left: 30%;
+  width: 40%;
+}
+
+.like{
+  height: 20px;
+  width: 20px;
+}
